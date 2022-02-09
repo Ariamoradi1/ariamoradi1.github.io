@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<h1 id="lblhtml">hello</h1>
+<p> hello </p>
+<input type="number" id="num1">
+<br>
+<input type="number" id="num2">
+<br>
+<input type="button" value="click me!" onclick="sum()">
+
+
+
+
+<script>
+lbl.innerHTML=x;
+function sum(){
+
+    var num1=document.getElementById("num1").value;
+    var num2=document.getElementById("num2").value;
+    
+   num1=parseInt(num1);
+   num2=parseInt(num2);
+    
+    var sum=num1+num2;
+    lbl.innerhtml=sum;   
+}
+
+</script>
+</html>
